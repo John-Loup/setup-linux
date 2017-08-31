@@ -1,5 +1,3 @@
-TODO: bashrc, desktop, docker lamp
-
 # LINUX SETUP
 Just a reminder for a new linux setup
 
@@ -17,10 +15,32 @@ sudo apt install terminator
 
 ## Config
 ````
-sudo vi ~/.config/terminator/config
+sudo gedit ~/.config/terminator/config
 ````
 
 ## .bashrc
+````
+sudo gedit ~/.bashrc
+
+# prompt
+PS1='\e[02;32m\u \e[m\e[00;33m\w\e[m \e[0;31m\n->\e[m '
+
+# aliases
+alias autorm="sudo apt autoremove"
+alias update="sudo apt-get update"
+alias upgrade="sudo apt upgrade"
+alias ca='bc -l'
+mkcd ()
+{
+    mkdir -p -- "$1" &&
+      cd -P -- "$1"
+}
+alias ctrash="gvfs-trash --empty"
+alias rm="gvfs-trash"
+alias localhost="cd ~/../../var/www/html"
+alias open="nautilus ."
+alias clean="sudo rm /var/lib/apt/lists/* -vf"
+````
 
 
 # 3: Packages
@@ -76,6 +96,9 @@ https://slack.com/downloads/linux
 ## PhpStorm
 ````
 https://www.jetbrains.com/phpstorm/download/#section=linux
+
+# ~/.bashrc
+PATH="$PATH:[path_to_directory]/PhpStorm-171.4694.2/bin"
 ````
 
 ## Misc
