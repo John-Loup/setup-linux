@@ -98,12 +98,14 @@ https://slack.com/downloads/linux
 ````
 
 ## PhpStorm
-````
-https://www.jetbrains.com/phpstorm/download/#section=linux
+ - https://www.jetbrains.com/phpstorm/download/#section=linux
 
-# ~/.bashrc
-PATH="$PATH:[path_to_directory]/PhpStorm-171.4694.2/bin"
 ````
+sudo gedit ~/.bashrc
+
+````
+Add this line
+ - PATH="$PATH:[path_to_directory]/PhpStorm-171.4694.2/bin"
 
 ## Misc
 ````
