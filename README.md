@@ -185,3 +185,7 @@ docker system prune -a
 
 ## i3 Windows Manager
  - https://i3wm.org/docs/repositories.html
+ 
+## Unity
+
+## Xfce
