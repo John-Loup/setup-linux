@@ -1,15 +1,15 @@
 TODO: bashrc, desktop, docker lamp
 
-#     LINUX SETUP
+# LINUX SETUP
 Just a reminder for a new linux setup
 
 
-#1: OS
+# 1: OS
 Ubuntu 16.XX LTS
  - https://www.ubuntu.com/download/desktop
  
  
-#2: Terminal
+# 2: Terminal
 ## Get Terminator
 ````
 sudo apt install terminator
