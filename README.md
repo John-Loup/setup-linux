@@ -94,4 +94,8 @@ sudo apt install bleachbit
 sudo apt install vlc
 ````
 
+
 # Setup dev environment on docker
+
+
+# Custom desktop
