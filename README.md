@@ -121,10 +121,12 @@ service apache2 restart
 
 
 # Update Adminer
+
 wget "http://www.adminer.org/latest.php" -O /usr/share/adminer/latest.php
 
 
 # Uninstall
+
 a2disconf adminer.conf
 
 service apache2 restart
