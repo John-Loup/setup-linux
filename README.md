@@ -1,4 +1,4 @@
-TODO: bashrc, desktop
+TODO: bashrc, desktop, docker lamp
 
 # Linux setup
 Just a reminder for a new linux setup
