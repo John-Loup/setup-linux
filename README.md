@@ -4,7 +4,7 @@ Just a reminder for a new linux setup
 
 # 1: OS
 Ubuntu 16.XX LTS
-https://www.ubuntu.com/download/desktop
+ - https://www.ubuntu.com/download/desktop
  
  
 # 2: Terminal
@@ -93,10 +93,10 @@ obs
 ````
 
 ## Slack
-https://slack.com/downloads/linux
+ - https://slack.com/downloads/linux
 
 ## PhpStorm
-https://www.jetbrains.com/phpstorm/download/#section=linux
+ - https://www.jetbrains.com/phpstorm/download/#section=linux
 
 ````
 sudo gedit ~/.bashrc
@@ -184,11 +184,11 @@ docker system prune -a
 # 5: Custom desktop
 
 ## i3 Windows Manager
-https://i3wm.org/docs/repositories.html
+ - https://i3wm.org/docs/repositories.html
  
 ## Unity
 
 ## Xfce
 
 ## Thème
-https://github.com/andreisergiu98/arc-flatabulous-theme
+ - https://github.com/andreisergiu98/arc-flatabulous-theme
