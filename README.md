@@ -1,4 +1,3 @@
-
 # LINUX SETUP
 Just a reminder for a new linux setup
 
@@ -94,10 +93,13 @@ obs
 ````
 
 ## Slack
- - https://slack.com/downloads/linux
+````
+https://slack.com/downloads/linux
+````
 
 ## PhpStorm
- - https://www.jetbrains.com/phpstorm/download/#section=linux
+````
+https://www.jetbrains.com/phpstorm/download/#section=linux
 
 # ~/.bashrc
 PATH="$PATH:[path_to_directory]/PhpStorm-171.4694.2/bin"
@@ -116,8 +118,6 @@ sudo apt install gnote
 sudo apt install bleachbit
 
 sudo apt install vlc
-
-sudo apt install easystroke
 ````
 
 
