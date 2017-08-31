@@ -4,6 +4,17 @@ Just a reminder for a new linux setup
 # OS
 Ubuntu 16.XX LTS
  - https://www.ubuntu.com/download/desktop
+ 
+# Terminal
+## Get Terminator
+````
+sudo apt install terminator
+````
+
+## Config
+````
+sudo vi ~/.config/terminator/config
+````
 
 # Packages
 List of packages to install
@@ -12,12 +23,13 @@ List of packages to install
 ````
 sudo apt install chromium-browser
 
-sudo apt install 
 ````
 
 ## Text editors
 ````
 sudo apt install vim
+
+sudo apt install nano
 ````
 
 ## Docker
@@ -59,4 +71,6 @@ sudo apt install discord
 sudo apt install font-manager
 
 sudo apt install gnote
+
+sudo apt install bleachbit
 ````
