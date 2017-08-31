@@ -187,6 +187,19 @@ docker system prune -a
  - https://i3wm.org/docs/repositories.html
  
 ## Unity
+ - CCSM
+ ````
+ sudo apt install compizconfig-settings-manager
+ 
+ sudo apt install compiz-plugins
+ 
+ sudo apt install compiz-plugins-extra
+ ````
+ 
+ - Unity Tweak Tool
+ ````
+ sudo apt install unity-tweak-tool
+ ````
 
 ## Xfce
 
