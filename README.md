@@ -23,7 +23,7 @@ sudo vi ~/.config/terminator/config
 ## .bashrc
 
 
-# Packages
+# 3: Packages
 List of packages to install
 
 ## Web browsers
@@ -94,7 +94,7 @@ sudo apt install vlc
 ````
 
 
-# 3: Setup dev environment on docker
+# 4: Setup dev environment on docker
 ## Run a LAMP container
 ````
 docker run -d --name lamp -p 81:80 -v /home/[USER]/docker-conts:/var/www/html nickistre/ubuntu-lamp
@@ -154,4 +154,4 @@ docker system prune -a
 ````
 
 
-# 4: Custom desktop
+# 5: Custom desktop
