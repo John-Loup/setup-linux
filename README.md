@@ -8,13 +8,13 @@ Ubuntu 16.XX LTS
  
  
 # 2: Terminal
-## Get Terminator
+## Terminator
 ````
 sudo apt install terminator
-````
 
-## Config
-````
+
+# config
+
 sudo gedit ~/.config/terminator/config
 ````
 
@@ -22,10 +22,14 @@ sudo gedit ~/.config/terminator/config
 ````
 sudo gedit ~/.bashrc
 
+
 # prompt
+
 PS1='\e[02;32m\u \e[m\e[00;33m\w\e[m \e[0;31m\n->\e[m '
 
+
 # aliases
+
 alias autorm="sudo apt autoremove"
 alias update="sudo apt-get update"
 alias upgrade="sudo apt upgrade"
