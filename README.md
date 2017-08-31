@@ -203,4 +203,4 @@ docker system prune -a
  sudo apt install unity-tweak-tool
  ````
  
- - Thème : https://github.com/andreisergiu98/arc-flatabulous-theme
+ - Theme : https://github.com/andreisergiu98/arc-flatabulous-theme
