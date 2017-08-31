@@ -117,6 +117,8 @@ sudo apt install gnote
 sudo apt install bleachbit
 
 sudo apt install vlc
+
+sudo apt install indicator-multiload
 ````
 
 
