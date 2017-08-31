@@ -4,18 +4,18 @@ TODO: bashrc, desktop, docker lamp
 Just a reminder for a new linux setup
 
 
-# 1) OS
+# 1: OS
 Ubuntu 16.XX LTS
  - https://www.ubuntu.com/download/desktop
  
  
-# 2) Terminal
-## 2a) Get Terminator
+# 2: Terminal
+## Get Terminator
 ````
 sudo apt install terminator
 ````
 
-## 2b) Config
+## Config
 ````
 sudo vi ~/.config/terminator/config
 ````
@@ -94,7 +94,7 @@ sudo apt install vlc
 ````
 
 
-# Setup dev environment on docker
+# 3: Setup dev environment on docker
 ## Run a LAMP container
 ````
 docker run -d --name lamp -p 81:80 -v /home/[USER]/docker-conts:/var/www/html nickistre/ubuntu-lamp
@@ -154,4 +154,4 @@ docker system prune -a
 ````
 
 
-# Custom desktop
+# 4: Custom desktop
