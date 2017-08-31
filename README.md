@@ -93,16 +93,13 @@ obs
 ````
 
 ## Slack
-````
-https://slack.com/downloads/linux
-````
+ - https://slack.com/downloads/linux
 
 ## PhpStorm
  - https://www.jetbrains.com/phpstorm/download/#section=linux
 
 ````
 sudo gedit ~/.bashrc
-
 ````
 Add this line
  - PATH="$PATH:[path_to_directory]/PhpStorm-171.4694.2/bin"
