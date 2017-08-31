@@ -91,3 +91,5 @@ sudo apt install bleachbit
 
 sudo apt install vlc
 ````
+
+# Setup LAMP on docker
