@@ -93,13 +93,10 @@ obs
 ````
 
 ## Slack
-````
-https://slack.com/downloads/linux
-````
+ - https://slack.com/downloads/linux
 
 ## PhpStorm
-````
-https://www.jetbrains.com/phpstorm/download/#section=linux
+ - https://www.jetbrains.com/phpstorm/download/#section=linux
 
 # ~/.bashrc
 PATH="$PATH:[path_to_directory]/PhpStorm-171.4694.2/bin"
@@ -118,6 +115,8 @@ sudo apt install gnote
 sudo apt install bleachbit
 
 sudo apt install vlc
+
+sudo apt install easystroke
 ````
 
 
@@ -183,3 +182,6 @@ docker system prune -a
 
 
 # 5: Custom desktop
+
+## i3 Windows Manager
+ - https://i3wm.org/docs/repositories.html
