@@ -8,6 +8,7 @@ Ubuntu 16.XX LTS
  
  
 # 2: Terminal
+
 ## Terminator
 ````
 sudo apt install terminator
@@ -48,7 +49,6 @@ alias clean="sudo rm /var/lib/apt/lists/* -vf"
 
 
 # 3: Packages
-List of packages to install
 
 ## Web browsers
 ````
@@ -122,6 +122,7 @@ sudo apt install vlc
 
 
 # 4: Setup dev environment on docker
+
 ## Run a LAMP container
 ````
 docker run -d --name lamp -p 81:80 -v /home/[USER]/docker-conts:/var/www/html nickistre/ubuntu-lamp
