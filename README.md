@@ -1,3 +1,5 @@
+TODO: bashrc, desktop
+
 # Linux setup
 Just a reminder for a new linux setup
 
@@ -15,6 +17,9 @@ sudo apt install terminator
 ````
 sudo vi ~/.config/terminator/config
 ````
+
+## .bashrc
+
 
 # Packages
 List of packages to install
@@ -62,6 +67,16 @@ sudo apt install obs-studio
 obs
 ````
 
+## Slack
+````
+https://slack.com/downloads/linux
+````
+
+## PhpStorm
+````
+https://www.jetbrains.com/phpstorm/download/#section=linux
+````
+
 ## Misc
 ````
 sudo apt install curl
@@ -73,4 +88,6 @@ sudo apt install font-manager
 sudo apt install gnote
 
 sudo apt install bleachbit
+
+sudo apt install vlc
 ````
