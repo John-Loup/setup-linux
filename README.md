@@ -29,7 +29,6 @@ List of packages to install
 ## Web browsers
 ````
 sudo apt install chromium-browser
-
 ````
 
 ## Text editors
@@ -128,6 +127,13 @@ rm -Rf /usr/share/adminer
 ## Setup Git
 ````
 apt-get install git
+````
+
+## Add Vim & Nano
+````
+apt-get install vim
+
+apt get install nano
 ````
 
 ## Clean docker
