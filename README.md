@@ -100,6 +100,9 @@ obs
 
 ## Slack
  - https://slack.com/downloads/linux
+ 
+## Discord
+ - https://discordapp.com/download
 
 ## PhpStorm
  - https://www.jetbrains.com/phpstorm/download/#section=linux
@@ -115,8 +118,6 @@ Add this line
 sudo apt install curl
 
 sudo apt install htop
-
-sudo apt install discord
 
 sudo apt install font-manager
 
