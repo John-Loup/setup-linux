@@ -131,7 +131,7 @@ sudo apt install indicator-multiload
 
 ## Run an Ubuntu-LAMP container
 ````
-docker run -d --name [name] -p 81:80 -v /home/[USER]/docker-conts:/var/www/html nickistre/ubuntu-lamp
+docker run -d --name [name] -p 81:80 -v /home/[USER]/docker-mirror:/var/www/html nickistre/ubuntu-lamp
 ````
 
 ## Execute console
