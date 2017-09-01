@@ -41,7 +41,7 @@ mkcd ()
       cd -P -- "$1"
 }
 alias ctrash="gvfs-trash --empty"
-#alias rm="gvfs-trash"
+alias hrm="gvfs-trash"
 alias localhost="cd ~/../../var/www/html"
 alias open="nautilus ."
 alias clean="sudo rm /var/lib/apt/lists/* -vf"
