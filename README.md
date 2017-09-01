@@ -134,6 +134,15 @@ docker run -d --name lamp -p 81:80 -v /home/[USER]/docker-conts:/var/www/html ni
 docker exec -it [container] bash
 ````
 
+## Updates
+````
+apt-get update
+
+apt-get upgrade
+
+apt-get autoremove
+````
+
 ## Setup Adminer
 ````
 mkdir /usr/share/adminer
