@@ -75,6 +75,11 @@ apt-cache policy docker-ce
 sudo apt install -y docker-ce
 
 sudo systemctl status docker
+
+
+# Clean Docker
+
+docker system prune -a
 ````
 
 ## OBS Studio
@@ -184,11 +189,6 @@ apt-get install git
 apt-get install vim
 
 apt get install nano
-````
-
-## Clean docker
-````
-docker system prune -a
 ````
 
 
