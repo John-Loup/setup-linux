@@ -114,6 +114,8 @@ Add this line
 ````
 sudo apt install curl
 
+sudo apt install htop
+
 sudo apt install discord
 
 sudo apt install font-manager
