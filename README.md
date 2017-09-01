@@ -45,6 +45,7 @@ alias ctrash="gvfs-trash --empty"
 alias localhost="cd ~/../../var/www/html"
 alias open="nautilus ."
 alias clean="sudo rm /var/lib/apt/lists/* -vf"
+alias mirror="cd ~/docker-mirror"
 ````
 
 
