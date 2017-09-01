@@ -216,3 +216,11 @@ apt get install nano
  ````
  
  - Theme : https://github.com/andreisergiu98/arc-flatabulous-theme
+ 
+ 
+ # 6: Restore Booting
+````
+sudo add-apt-repository ppa:yannubuntu/boot-repair && sudo apt-get update
+
+sudo apt-get install -y boot-repair && boot-repair &
+````
