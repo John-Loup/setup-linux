@@ -127,9 +127,9 @@ sudo apt install indicator-multiload
 ````
 
 
-# 4: Setup dev environment on docker
+# 4: Setup a dev environment on docker
 
-## Run a LAMP container
+## Run an Ubuntu-LAMP container
 ````
 docker run -d --name lamp -p 81:80 -v /home/[USER]/docker-conts:/var/www/html nickistre/ubuntu-lamp
 ````
