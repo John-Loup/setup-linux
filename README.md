@@ -219,9 +219,6 @@ Just a reminder for a new linux setup
 
 # 5: Custom desktop
 
- ## i3 Windows Manager
-   - https://i3wm.org/docs/repositories.html
- 
  ## Unity
    - CCSM
    ````
@@ -238,6 +235,10 @@ Just a reminder for a new linux setup
    ````
  
    - Theme : https://github.com/andreisergiu98/arc-flatabulous-theme
+   
+   
+  ## i3 Windows Manager
+   - https://i3wm.org/docs/repositories.html
  
  
  # 6: Restore Booting
