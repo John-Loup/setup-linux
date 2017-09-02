@@ -187,6 +187,13 @@ rm /etc/apache2/conf-available/adminer.conf
 rm -Rf /usr/share/adminer
 ````
 
+## Change MySQL password
+````
+SET PASSWORD FOR '${USER}'@'localhost' = PASSWORD('[password]');
+
+FLUSH PRIVILEGES;
+````
+
 ## Setup Git
 ````
 apt-get install git
