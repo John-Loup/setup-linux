@@ -121,13 +121,13 @@ obs
 ## PhpStorm
  - https://www.jetbrains.com/phpstorm/download/#section=linux
  
- Import theme and setings from "phpstorm-settings.tar.gz"
-
-````
-sudo gedit ~/.bashrc
-````
-Add this line
- - PATH="$PATH:[path_to_directory]/PhpStorm-171.4694.2/bin"
+ - Import theme and setings from "phpstorm-settings.tar.gz"
+ 
+ - Add to ${PATH} (optional)
+    ````
+    sudo gedit ~/.bashrc
+    ````
+    PATH="$PATH:[path_to_directory]/PhpStorm-171.4694.2/bin"
 
 ## Misc
 ````
