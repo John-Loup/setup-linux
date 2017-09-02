@@ -222,16 +222,16 @@ Just a reminder for a new linux setup
  ## Unity
    - CCSM
    ````
-    sudo apt install compizconfig-settings-manager
+   sudo apt install compizconfig-settings-manager
  
-    sudo apt install compiz-plugins
+   sudo apt install compiz-plugins
  
-    sudo apt install compiz-plugins-extra
+   sudo apt install compiz-plugins-extra
    ````
  
    - Unity Tweak Tool
    ````
-    sudo apt install unity-tweak-tool
+   sudo apt install unity-tweak-tool
    ````
  
    - Theme : https://github.com/andreisergiu98/arc-flatabulous-theme
