@@ -142,7 +142,7 @@ sudo apt install indicator-multiload
 docker run -d --name [name] -p 81:80 -v /home/${USER}/docker-mirror:/var/www/html nickistre/ubuntu-lamp
 ````
 
-## Execute console
+## Execute the console
 ````
 docker exec -it [container] bash
 ````
