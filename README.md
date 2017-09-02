@@ -50,6 +50,16 @@ alias clean="sudo rm /var/lib/apt/lists/* -vf"
 alias mirror="cd ~/docker-mirror"
 ````
 
+## .inputrc
+````
+sudo gedit ~/.inputrc
+
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+set show-all-if-ambiguous on
+set completion-ignore-case on
+````
+
 
 # 3: Packages
 
@@ -110,6 +120,8 @@ obs
 
 ## PhpStorm
  - https://www.jetbrains.com/phpstorm/download/#section=linux
+ 
+ Import theme and setings from "phpstorm-settings.tar.gz"
 
 ````
 sudo gedit ~/.bashrc
