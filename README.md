@@ -237,7 +237,7 @@ Just a reminder for a new linux setup
    - Theme : https://github.com/andreisergiu98/arc-flatabulous-theme
    
    
-  ## i3 Windows Manager
+  ## i3 Window Manager
    - https://i3wm.org/docs/repositories.html
  
  
