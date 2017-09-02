@@ -1,5 +1,3 @@
-TODO: old bash commands, phpstorm settings + theme
-
 # LINUX SETUP
 Just a reminder for a new linux setup
 
