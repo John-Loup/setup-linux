@@ -189,7 +189,7 @@ rm -Rf /usr/share/adminer
 
 ## Change MySQL password
 ````
-SET PASSWORD FOR '${USER}'@'localhost' = PASSWORD('[password]');
+SET PASSWORD FOR '[user]'@'localhost' = PASSWORD('[password]');
 
 FLUSH PRIVILEGES;
 ````
