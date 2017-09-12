@@ -92,7 +92,7 @@ Just a reminder for a new linux setup
   ````
 
 
-# 3: Packages
+# 4: Packages
 
  ## Text editors
   ````
@@ -173,7 +173,7 @@ Just a reminder for a new linux setup
   ````
 
 
-# 4: Setup a dev environment on docker
+# 5: Setup a dev environment on docker
 
  ## Run an Ubuntu-LAMP container
   ````
@@ -245,7 +245,7 @@ Just a reminder for a new linux setup
   ````
 
 
-# 5: Custom desktop
+# 6: Custom desktop
 
  ## Unity
    - CCSM
@@ -275,9 +275,21 @@ Just a reminder for a new linux setup
    - https://i3wm.org/docs/repositories.html
  
  
- # 6: Restore Booting
+ # 7: Restore Booting
+ 
+  ## Ubuntu Repair
   ````
   sudo add-apt-repository ppa:yannubuntu/boot-repair && sudo apt-get update
 
   sudo apt-get install -y boot-repair && boot-repair &
+  ````
+  
+  ## Error after nvidia upgrade : tpm_crb MSFT0101:00: can't request region for resource
+  ````
+  sudo apt purge nvidia-*
+  sudo add-apt-repository ppa:graphics-drivers/ppa
+  sudo apt update
+  sudo apt full-upgrade
+  sudo apt install nvidia-378
+  sudo reboot
   ````
