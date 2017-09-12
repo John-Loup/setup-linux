@@ -47,7 +47,7 @@ Just a reminder for a new linux setup
         cd -P -- "$1"
   }
   alias ctrash="gvfs-trash --empty"
-  alias hrm="gvfs-trash"
+  alias srm="gvfs-trash"
   alias lh="cd /var/www/html"
   alias open="nautilus ."
   alias clean="sudo rm /var/lib/apt/lists/* -vf"
