@@ -277,7 +277,7 @@ Just a reminder for a new linux setup
  
  # 7: Restore Booting
  
-  ## Ubuntu Repair
+  ## Boot Repair
   ````
   sudo add-apt-repository ppa:yannubuntu/boot-repair && sudo apt-get update
 
