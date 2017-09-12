@@ -64,13 +64,35 @@ Just a reminder for a new linux setup
   set completion-ignore-case on
   ````
 
+# 3: Web browsers
 
-# 3: Packages
-
- ## Web browsers
+ ## Chromium
   ````
   sudo apt install chromium-browser
   ````
+ 
+ ## Firefox Developer
+  - Download archive : https://www.mozilla.org/en-US/firefox/developer/
+  
+  - Extract in : /usr/local/firefox-dev/
+  
+  - Add launcher shortcut & icon :
+  ````
+  sudo vim ~/.local/share/applications/firefox-dev.desktop
+  
+  [Desktop Entry]
+  Name=Firefox Developer
+  GenericName=Firefox Developer Edition
+  Exec=/usr/local/firefox-dev/firefox
+  Terminal=false
+  Icon=/usr/local/firefox-dev/browser/icons/mozicon128.png
+  Type=Application
+  Categories=Application;Network;X-Developer;
+  Comment=Firefox Developer Edition Web Browser.
+  ````
+
+
+# 3: Packages
 
  ## Text editors
   ````
