@@ -48,7 +48,7 @@ Just a reminder for a new linux setup
   }
   alias ctrash="gvfs-trash --empty"
   alias hrm="gvfs-trash"
-  alias localhost="cd ~/../../var/www/html"
+  alias lh="cd /var/www/html"
   alias open="nautilus ."
   alias clean="sudo rm /var/lib/apt/lists/* -vf"
   alias mirror="cd ~/docker-mirror"
