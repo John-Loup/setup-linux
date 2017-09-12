@@ -287,9 +287,14 @@ Just a reminder for a new linux setup
   ## Error after nvidia upgrade : tpm_crb MSFT0101:00: can't request region for resource
   ````
   sudo apt purge nvidia-*
+  
   sudo add-apt-repository ppa:graphics-drivers/ppa
+  
   sudo apt update
+  
   sudo apt full-upgrade
+  
   sudo apt install nvidia-378
+  
   sudo reboot
   ````
