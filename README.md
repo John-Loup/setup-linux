@@ -30,7 +30,7 @@ Just a reminder for a new linux setup
 	     git rev-parse --abbrev-ref HEAD 2> /dev/null| awk '{print " (git::"$0")" }'
   }
   
-  PS1="\[\033[38;5;2m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] : \[$(tput sgr0)\]\[\033[38;5;11m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\] \$(parse_git_branch) \e[0;31m\n->\e[m \[$(tput sgr0)\]"
+  PS1="\[\033[38;5;2m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] : \[$(tput sgr0)\]\[\033[38;5;11m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]\$(parse_git_branch) \e[0;31m\n->\e[m \[$(tput sgr0)\]"
 
   PS1='\e[02;32m\u \e[m\e[00;33m\w\e[m \e[0;31m\n->\e[m '
 
