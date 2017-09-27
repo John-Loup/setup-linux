@@ -298,3 +298,8 @@ Just a reminder for a new linux setup
   
   sudo reboot
   ````
+
+ # 8: Tools
+ 
+  ## Code checkers
+   - http://www.acseo.fr/utiliser-phpmd-phpcs-php-cs-fixer-pour-vos-projets-php/
