@@ -171,8 +171,6 @@ Just a reminder for a new linux setup
   sudo apt install vlc
 
   sudo apt install indicator-multiload
-  
-  sudo apt install manpages-fr
   ````
 
 
