@@ -52,6 +52,7 @@ Just a reminder for a new linux setup
   alias open="nautilus ."
   alias clean="sudo rm /var/lib/apt/lists/* -vf"
   alias mirror="cd ~/docker-mirror"
+  alias rm="rm --preserve-root"
   ````
 
  ## .inputrc
