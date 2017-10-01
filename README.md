@@ -161,6 +161,10 @@ Just a reminder for a new linux setup
   sudo apt install curl
 
   sudo apt install htop
+  
+  sudo apt install cron
+  
+  sudo apt install at
 
   sudo apt install font-manager
 
@@ -171,6 +175,8 @@ Just a reminder for a new linux setup
   sudo apt install vlc
 
   sudo apt install indicator-multiload
+  
+  sudo apt install byobu
   ````
 
 
