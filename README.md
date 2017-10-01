@@ -177,6 +177,10 @@ Just a reminder for a new linux setup
   sudo apt install indicator-multiload
   
   sudo apt install byobu
+  
+  sudo apt-get install unzip
+  
+  sudo apt-get install unrar
   ````
 
 
