@@ -235,6 +235,18 @@ Just a reminder for a new linux setup
 
   rm -Rf /usr/share/adminer
   ````
+  
+ ## Install Composer
+ ````
+ curl -sS https://getcomposer.org/installer | php
+ 
+ sudo mv composer.phar /usr/local/bin/composer.phar
+ 
+ vim ~/.bashrc
+ alias composer='/usr/local/bin/composer.phar'
+ 
+ source ~/.bashrc
+ ````
 
  ## Change MySQL password
   ````
