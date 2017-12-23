@@ -1,6 +1,10 @@
 # LINUX SETUP
 Just a reminder for a new linux setup
 
+Full packages : 
+````
+sudo apt install -y terminator chromium-browser vim nano curl htop cron at font-manager bleachbit vlc indicator-multiload byobu unzip unrar git docky unity-tweak-tool compizconfig-settings-manager
+````
 
 # 1: OS
  Ubuntu 16.XX LTS
