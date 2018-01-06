@@ -99,6 +99,11 @@ sudo apt install -y terminator chromium-browser vim nano curl htop cron at font-
 
 # 4: Packages
 
+ ## Quick install
+  ````
+  sudo apt install -y terminator chromium-browser vim nano curl htop cron at font-manager bleachbit vlc indicator-multiload byobu unzip unrar git
+  ````
+
  ## Text editors
   ````
   sudo apt install vim
