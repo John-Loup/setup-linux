@@ -1,5 +1,5 @@
 # LINUX SETUP
-Just a reminder for a new linux setup
+Just a reminder for a new desktop setup
 
 Full packages : 
 ````
@@ -11,104 +11,11 @@ sudo apt install -y terminator chromium-browser vim nano curl htop cron at font-
   - https://www.ubuntu.com/download/desktop
  
  
-# 2: Terminal
-
- ## Terminator
-  ````
-  sudo apt install terminator
-
-
-  # config
-
-  sudo gedit ~/.config/terminator/config
-  ````
-
- ## .bashrc
-  ````
-  sudo gedit ~/.bashrc
-
-
-  # prompt
-  
-  parse_git_branch() {
-	     git rev-parse --abbrev-ref HEAD 2> /dev/null| awk '{print " (git::"$0")" }'
-  }
-  
-  PS1="\[\033[38;5;2m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] : \[$(tput sgr0)\]\[\033[38;5;11m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\] \n-> \[$(tput sgr0)\]"
-
-  # PS1='\e[02;32m\u \e[m\e[00;33m\w\e[m \e[0;31m\n->\e[m '
-
-
-  # aliases
-
-  alias autorm="sudo apt autoremove"
-  alias update="sudo apt-get update"
-  alias upgrade="sudo apt upgrade"
-  alias ca='bc -l'
-  mkcd ()
-  {
-      mkdir -p -- "$1" &&
-        cd -P -- "$1"
-  }
-  alias ctrash="gvfs-trash --empty"
-  alias srm="gvfs-trash"
-  alias lh="cd /var/www/html"
-  alias open="nautilus ."
-  alias clean="sudo rm /var/lib/apt/lists/* -vf"
-  alias mirror="cd ~/docker-mirror"
-  alias rm="rm --preserve-root"
-  ````
-
- ## .inputrc
-  ````
-  sudo gedit ~/.inputrc
-
-  "\e[A": history-search-backward
-  "\e[B": history-search-forward
-  set show-all-if-ambiguous on
-  set completion-ignore-case on
-  ````
-
-# 3: Web browsers
-
- ## Chromium
-  ````
-  sudo apt install chromium-browser
-  ````
- 
- ## Firefox Developer
-  - Download archive : https://www.mozilla.org/en-US/firefox/developer/
-  
-  - Extract in : /usr/local/firefox-dev/
-  
-  - Add launcher shortcut & icon :
-  ````
-  sudo vim ~/.local/share/applications/firefox-dev.desktop
-  
-  [Desktop Entry]
-  Name=Firefox Developer
-  GenericName=Firefox Developer Edition
-  Exec=/usr/local/firefox-dev/firefox
-  Terminal=false
-  Icon=/usr/local/firefox-dev/browser/icons/mozicon128.png
-  Type=Application
-  Categories=Application;Network;X-Developer;
-  Comment=Firefox Developer Edition Web Browser.
-  ````
-
-
-# 4: Packages
+# 2: Packages
 
  ## Quick install
   ````
-  sudo apt install -y terminator chromium-browser vim nano curl htop cron at font-manager bleachbit vlc indicator-multiload byobu unzip unrar git
-  ````
-
- ## Text editors
-  ````
-  sudo apt install vim
-
-  sudo apt install nano
+  sudo apt update -y && sudo apt upgrade -y && sudo apt install -y terminator chromium-browser vim nano curl htop cron at font-manager bleachbit vlc indicator-multiload byobu unzip unrar git
   ````
 
  ## Docker
@@ -133,21 +40,6 @@ sudo apt install -y terminator chromium-browser vim nano curl htop cron at font-
   docker system prune -a
   ````
 
- ## OBS Studio
-  ````
-  sudo apt-add-repository ppa:jon-severinsson/ffmpeg
-
-  sudo apt update
-
-  sudo apt install ffmpeg
-
-  sudo apt-add-repository ppa:obsproject/obs-studio
-
-  sudo apt install obs-studio
-
-  obs
-  ````
-
  ## Slack
    - https://slack.com/downloads/linux
  
@@ -164,34 +56,73 @@ sudo apt install -y terminator chromium-browser vim nano curl htop cron at font-
     sudo gedit ~/.bashrc
     ````
     PATH="$PATH:[path_to_directory]/PhpStorm-171.4694.2/bin"
-
- ## Misc
+    
+  ## Firefox Developer
+  - Download archive : https://www.mozilla.org/en-US/firefox/developer/
+  
+  - Extract in : /usr/local/firefox-dev/
+  
+  - Add launcher shortcut & icon :
   ````
-  sudo apt install curl
-
-  sudo apt install htop
+  sudo vim ~/.local/share/applications/firefox-dev.desktop
   
-  sudo apt install cron
-  
-  sudo apt install at
-
-  sudo apt install font-manager
-
-  sudo apt install gnote
-
-  sudo apt install bleachbit
-
-  sudo apt install vlc
-
-  sudo apt install indicator-multiload
-  
-  sudo apt install byobu
-  
-  sudo apt-get install unzip
-  
-  sudo apt-get install unrar
+  [Desktop Entry]
+  Name=Firefox Developer
+  GenericName=Firefox Developer Edition
+  Exec=/usr/local/firefox-dev/firefox
+  Terminal=false
+  Icon=/usr/local/firefox-dev/browser/icons/mozicon128.png
+  Type=Application
+  Categories=Application;Network;X-Developer;
+  Comment=Firefox Developer Edition Web Browser.
   ````
 
+ # 2: Terminal
+
+  ## .bashrc
+  ````
+  sudo vim ~/.bashrc
+
+
+  # prompt
+  
+  parse_git_branch() {
+	     git rev-parse --abbrev-ref HEAD 2> /dev/null| awk '{print " (git::"$0")" }'
+  }
+  
+  PS1="\[\033[38;5;2m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] : \[$(tput sgr0)\]\[\033[38;5;11m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\] \n-> \[$(tput sgr0)\]"
+
+  # aliases
+
+  alias ca='bc -l'
+  mkcd ()
+  {
+      mkdir -p -- "$1" &&
+        cd -P -- "$1"
+  }
+  alias ctrash="gvfs-trash --empty"
+  alias srm="gvfs-trash"
+  alias open="nautilus ."
+  alias clean="sudo rm /var/lib/apt/lists/* -vf"
+  alias rm="rm --preserve-root"
+  alias ..="../"
+  alias ...="../../"
+  alias ....="../../../"
+  alias cdeploy="sudo cdeploy"
+  alias cremove="sudo cremove"
+  alias cenable="sudo cenable"
+  alias cdisable="sudo disable"
+  ````
+
+ ## .inputrc
+  ````
+  sudo gedit ~/.inputrc
+
+  "\e[A": history-search-backward
+  "\e[B": history-search-forward
+  set show-all-if-ambiguous on
+  set completion-ignore-case on
+  ````
 
 # 5: Setup a dev environment on docker
 
