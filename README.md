@@ -111,12 +111,12 @@ sudo apt install -y terminator chromium-browser vim nano curl htop cron at font-
   alias cdeploy="sudo cdeploy"
   alias cremove="sudo cremove"
   alias cenable="sudo cenable"
-  alias cdisable="sudo disable"
+  alias cdisable="sudo cdisable"
   ````
 
  ## .inputrc
   ````
-  sudo gedit ~/.inputrc
+  sudo vim ~/.inputrc
 
   "\e[A": history-search-backward
   "\e[B": history-search-forward
