@@ -91,8 +91,93 @@ Just a reminder for a new ubuntu 16.04 setup
   ````
   sudo vim /etc/vim/vimrc
   ````
+  
 
-# 3: Setup a dev environment on docker (example)
+# 3: Custom desktop
+
+ ## Cinnamon
+ ````
+  sudo apt install cinnamon
+  ````
+
+
+ ## Unity
+   - CCSM
+   ````
+   sudo apt install compizconfig-settings-manager
+ 
+   sudo apt install compiz-plugins
+ 
+   sudo apt install compiz-plugins-extra
+   ````
+ 
+   - Unity Tweak Tool
+   ````
+   sudo apt install unity-tweak-tool
+   ````
+   
+  ## Arc theme 
+   - Theme : https://github.com/andreisergiu98/arc-flatabulous-theme
+   
+   
+  ## Docky
+  ````
+  sudo apt install docky
+  ````
+   
+   
+  ## i3 Window Manager
+   - https://i3wm.org/docs/repositories.html
+   
+   
+  ## Create shortuts manually
+  ````
+  sudo vim ~/.local/share/applications/firefox-dev.desktop
+  
+  [Desktop Entry]
+  Name=Firefox Developer
+  GenericName=Firefox Developer Edition
+  Exec=/usr/local/firefox-dev/firefox
+  Terminal=false
+  Icon=/usr/local/firefox-dev/browser/icons/mozicon128.png
+  Type=Application
+  Categories=Application;Network;X-Developer;
+  Comment=Firefox Developer Edition Web Browser.
+  ````
+
+ 
+ # 4: Recovery
+ 
+  ## Boot Repair
+  ````
+  sudo add-apt-repository ppa:yannubuntu/boot-repair && sudo apt-get update
+
+  sudo apt-get install -y boot-repair && boot-repair &
+  ````
+  
+  ## Error after nvidia upgrade : tpm_crb MSFT0101:00: can't request region for resource
+  ````
+  sudo apt purge nvidia-*
+  
+  sudo add-apt-repository ppa:graphics-drivers/ppa
+  
+  sudo apt update
+  
+  sudo apt full-upgrade
+  
+  sudo apt install nvidia-XXX
+  
+  sudo reboot
+  ````
+  
+
+ # 5: Tools
+ 
+  ## Code checkers
+   - http://www.acseo.fr/utiliser-phpmd-phpcs-php-cs-fixer-pour-vos-projets-php/
+   
+   
+ # 6: Setup a dev environment on docker (example)
 
  ## Run an Ubuntu-LAMP container
   ````
@@ -175,85 +260,3 @@ Just a reminder for a new ubuntu 16.04 setup
   apt get install nano
   ````
 
-
-# 4: Custom desktop
-
- ## Cinnamon
- ````
-  sudo apt install cinnamon
-  ````
-
-
- ## Unity
-   - CCSM
-   ````
-   sudo apt install compizconfig-settings-manager
- 
-   sudo apt install compiz-plugins
- 
-   sudo apt install compiz-plugins-extra
-   ````
- 
-   - Unity Tweak Tool
-   ````
-   sudo apt install unity-tweak-tool
-   ````
-   
-  ## Arc theme 
-   - Theme : https://github.com/andreisergiu98/arc-flatabulous-theme
-   
-   
-  ## Docky
-  ````
-  sudo apt install docky
-  ````
-   
-   
-  ## i3 Window Manager
-   - https://i3wm.org/docs/repositories.html
-   
-   
-  ## Create shortuts manually
-  ````
-  sudo vim ~/.local/share/applications/firefox-dev.desktop
-  
-  [Desktop Entry]
-  Name=Firefox Developer
-  GenericName=Firefox Developer Edition
-  Exec=/usr/local/firefox-dev/firefox
-  Terminal=false
-  Icon=/usr/local/firefox-dev/browser/icons/mozicon128.png
-  Type=Application
-  Categories=Application;Network;X-Developer;
-  Comment=Firefox Developer Edition Web Browser.
-  ````
-
- 
- # 5: Recovery
- 
-  ## Boot Repair
-  ````
-  sudo add-apt-repository ppa:yannubuntu/boot-repair && sudo apt-get update
-
-  sudo apt-get install -y boot-repair && boot-repair &
-  ````
-  
-  ## Error after nvidia upgrade : tpm_crb MSFT0101:00: can't request region for resource
-  ````
-  sudo apt purge nvidia-*
-  
-  sudo add-apt-repository ppa:graphics-drivers/ppa
-  
-  sudo apt update
-  
-  sudo apt full-upgrade
-  
-  sudo apt install nvidia-XXX
-  
-  sudo reboot
-  ````
-
- # 6: Tools
- 
-  ## Code checkers
-   - http://www.acseo.fr/utiliser-phpmd-phpcs-php-cs-fixer-pour-vos-projets-php/
