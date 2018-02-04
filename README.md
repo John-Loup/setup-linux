@@ -92,7 +92,7 @@ Just a reminder for a new ubuntu 16.04 setup
   sudo vim /etc/vim/vimrc
   ````
 
-# 5: Setup a dev environment on docker (example)
+# 3: Setup a dev environment on docker (example)
 
  ## Run an Ubuntu-LAMP container
   ````
@@ -176,7 +176,7 @@ Just a reminder for a new ubuntu 16.04 setup
   ````
 
 
-# 6: Custom desktop
+# 4: Custom desktop
 
  ## Cinnamon
  ````
@@ -229,7 +229,7 @@ Just a reminder for a new ubuntu 16.04 setup
   ````
 
  
- # 7: Recovery
+ # 5: Recovery
  
   ## Boot Repair
   ````
@@ -253,7 +253,7 @@ Just a reminder for a new ubuntu 16.04 setup
   sudo reboot
   ````
 
- # 8: Tools
+ # 6: Tools
  
   ## Code checkers
    - http://www.acseo.fr/utiliser-phpmd-phpcs-php-cs-fixer-pour-vos-projets-php/
