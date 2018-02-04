@@ -1,17 +1,10 @@
-# LINUX SETUP
-Just a reminder for a new desktop setup
+# LINUX DESKTOP SETUP
+Just a reminder for a new ubuntu 16.04 setup
 
-Full packages : 
-````
-sudo apt install -y terminator chromium-browser vim nano curl htop cron at font-manager bleachbit vlc indicator-multiload byobu unzip unrar git docky unity-tweak-tool compizconfig-settings-manager
-````
+---
 
-# 1: OS
- Ubuntu 16.XX LTS
-  - https://www.ubuntu.com/download/desktop
- 
- 
-# 2: Packages
+
+# 1: Packages & softwares
 
  ## Quick install
   ````
@@ -39,45 +32,15 @@ sudo apt install -y terminator chromium-browser vim nano curl htop cron at font-
 
   docker system prune -a
   ````
-
- ## Slack
-   - https://slack.com/downloads/linux
- 
- ## Discord
-   - https://discordapp.com/download
-
+  
+  
  ## PhpStorm
    - https://www.jetbrains.com/phpstorm/download/#section=linux
  
-   - Import theme and setings from "phpstorm-settings.tar.gz"
- 
-   - Add to ${PATH} (optional)
-    ````
-    sudo gedit ~/.bashrc
-    ````
-    PATH="$PATH:[path_to_directory]/PhpStorm-171.4694.2/bin"
+   - Import theme and setings : https://github.com/John-Loup/setup-linux/raw/master/settings.jar
     
-  ## Firefox Developer
-  - Download archive : https://www.mozilla.org/en-US/firefox/developer/
-  
-  - Extract in : /usr/local/firefox-dev/
-  
-  - Add launcher shortcut & icon :
-  ````
-  sudo vim ~/.local/share/applications/firefox-dev.desktop
-  
-  [Desktop Entry]
-  Name=Firefox Developer
-  GenericName=Firefox Developer Edition
-  Exec=/usr/local/firefox-dev/firefox
-  Terminal=false
-  Icon=/usr/local/firefox-dev/browser/icons/mozicon128.png
-  Type=Application
-  Categories=Application;Network;X-Developer;
-  Comment=Firefox Developer Edition Web Browser.
-  ````
 
- # 2: Terminal
+ # 2: Shell
 
   ## .bashrc
   ````
@@ -123,8 +86,13 @@ sudo apt install -y terminator chromium-browser vim nano curl htop cron at font-
   set show-all-if-ambiguous on
   set completion-ignore-case on
   ````
+  
+ ## vimrc
+  ````
+  sudo vim /etc/vim/vimrc
+  ````
 
-# 5: Setup a dev environment on docker
+# 5: Setup a dev environment on docker (example)
 
  ## Run an Ubuntu-LAMP container
   ````
@@ -210,6 +178,12 @@ sudo apt install -y terminator chromium-browser vim nano curl htop cron at font-
 
 # 6: Custom desktop
 
+ ## Cinnamon
+ ````
+  sudo apt install cinnamon
+  ````
+
+
  ## Unity
    - CCSM
    ````
@@ -224,7 +198,8 @@ sudo apt install -y terminator chromium-browser vim nano curl htop cron at font-
    ````
    sudo apt install unity-tweak-tool
    ````
- 
+   
+  ## Arc theme 
    - Theme : https://github.com/andreisergiu98/arc-flatabulous-theme
    
    
@@ -236,9 +211,25 @@ sudo apt install -y terminator chromium-browser vim nano curl htop cron at font-
    
   ## i3 Window Manager
    - https://i3wm.org/docs/repositories.html
+   
+   
+  ## Create shortuts manually
+  ````
+  sudo vim ~/.local/share/applications/firefox-dev.desktop
+  
+  [Desktop Entry]
+  Name=Firefox Developer
+  GenericName=Firefox Developer Edition
+  Exec=/usr/local/firefox-dev/firefox
+  Terminal=false
+  Icon=/usr/local/firefox-dev/browser/icons/mozicon128.png
+  Type=Application
+  Categories=Application;Network;X-Developer;
+  Comment=Firefox Developer Edition Web Browser.
+  ````
+
  
- 
- # 7: Restore Booting
+ # 7: Recovery
  
   ## Boot Repair
   ````
@@ -257,7 +248,7 @@ sudo apt install -y terminator chromium-browser vim nano curl htop cron at font-
   
   sudo apt full-upgrade
   
-  sudo apt install nvidia-378
+  sudo apt install nvidia-XXX
   
   sudo reboot
   ````
