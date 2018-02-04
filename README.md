@@ -35,7 +35,9 @@ Just a reminder for a new ubuntu 16.04 setup
   
   
  ## PhpStorm
-   - https://www.jetbrains.com/phpstorm/download/#section=linux
+   ````
+   sudo snap install phpstorm --classic
+   ````
  
    - Import theme and setings : https://github.com/John-Loup/setup-linux/raw/master/settings.jar
     
