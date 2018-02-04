@@ -155,7 +155,7 @@ Just a reminder for a new ubuntu 16.04 setup
   sudo apt-get install -y boot-repair && boot-repair &
   ````
   
-  ## Error after nvidia upgrade : tpm_crb MSFT0101:00: can't request region for resource
+  ## Repair NVIDIA GPU driver
   ````
   sudo apt purge nvidia-*
   
