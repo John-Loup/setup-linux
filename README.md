@@ -132,7 +132,7 @@ Just a reminder for a new ubuntu 16.04 setup
    - https://i3wm.org/docs/repositories.html
    
    
-  ## Create shortuts manually
+  ## Create shortcuts manually
   ````
   sudo vim ~/.local/share/applications/firefox-dev.desktop
   
