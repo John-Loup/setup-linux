@@ -157,6 +157,11 @@ Just a reminder for a new ubuntu 16.04 setup
   sudo apt --fix-broken install
   ````
   
+  ## Skip MySQL user verifications
+  ````
+  sudo systemctl set-environment MYSQLD_OPTS="--skip-grant-tables"
+  ````
+  
 
  # 5: Tools
  
