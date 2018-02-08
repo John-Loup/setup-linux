@@ -8,7 +8,7 @@ Just a reminder for a new ubuntu 16.04 setup
 
  ## Quick install
   ````
-  sudo apt update -y && sudo apt upgrade -y && sudo apt install -y terminator chromium-browser vim nano curl htop cron at font-manager bleachbit vlc indicator-multiload byobu unzip unrar git
+  sudo apt update -y && sudo apt upgrade -y && sudo apt install -y terminator chromium-browser vim nano curl htop cron at font-manager bleachbit vlc indicator-multiload byobu unzip unrar git ansible
   ````
 
  ## Docker
@@ -170,6 +170,13 @@ Just a reminder for a new ubuntu 16.04 setup
   sudo apt install nvidia-XXX
   
   sudo reboot
+  ````
+  
+  ## Repair broken packages/dependencies
+  ````
+  sudo dpkg --configure -a
+  
+  sudo apt --fix-broken install
   ````
   
 
