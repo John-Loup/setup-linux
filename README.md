@@ -72,6 +72,11 @@ Just a reminder for a new ubuntu 16.04 setup
   sudo vim /etc/vim/vimrc
   ````
   
+ ## Extras
+  - https://github.com/BurntSushi/ripgrep#installation
+  - https://github.com/sharkdp/fd
+  - https://github.com/sharkdp/fd/releases
+  
 
 # 3: Custom desktop
 
