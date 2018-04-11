@@ -72,6 +72,7 @@ Just a reminder for a new ubuntu 16.04 setup
   alias gft="git fetch"
   alias gpl="git pull"
   alias gps="git push"
+  alias gbr="git branch -av"
   ````
 
  ## .inputrc
