@@ -35,9 +35,8 @@ Just a reminder for a new ubuntu 16.04 setup
   
   PS1="\[\033[38;5;2m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] : \[$(tput sgr0)\]\[\033[38;5;11m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\] \n-> \[$(tput sgr0)\]"
 
-  # aliases
+  # ALIASES
 
-  alias ca='bc -l'
   mkcd ()
   {
       mkdir -p -- "$1" &&
@@ -45,16 +44,27 @@ Just a reminder for a new ubuntu 16.04 setup
   }
   alias ctrash="gvfs-trash --empty"
   alias srm="gvfs-trash"
+  alias aptclear="sudo rm /var/lib/apt/lists/* -vf"
   alias open="nautilus ."
-  alias clean="sudo rm /var/lib/apt/lists/* -vf"
-  alias rm="rm --preserve-root"
-  alias ..="../"
-  alias ...="../../"
-  alias ....="../../../"
+  # cd
+  alias ..1="cd ../"
+  alias ..2="cd ../../"
+  alias ..3="cd ../../../"
+  # LXC
   alias cdeploy="sudo cdeploy"
   alias cremove="sudo cremove"
   alias cenable="sudo cenable"
   alias cdisable="sudo cdisable"
+  # grep
+  alias egrep='egrep --color=auto'
+  alias fgrep='fgrep --color=auto'
+  alias grep='grep --color=auto'
+  # exa
+  alias lsl='exa -ghil'
+  alias lsr='exa -ghiR'
+  alias lst='exa -ghiT'
+  alias lslr='exa -ghiRl'
+  alias lslt='exa -ghiTl'
   ````
 
  ## .inputrc
