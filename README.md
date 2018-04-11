@@ -65,6 +65,13 @@ Just a reminder for a new ubuntu 16.04 setup
   alias lst='exa -ghiT'
   alias lslr='exa -ghiRl'
   alias lslt='exa -ghiTl'
+  #git
+  alias gst="git status"
+  alias gcm="git commit -m"
+  alias gco="git checkout"
+  alias gft="git fetch"
+  alias gpl="git pull"
+  alias gps="git push"
   ````
 
  ## .inputrc
